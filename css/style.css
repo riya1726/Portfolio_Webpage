@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    background-color: red;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: inline;
+}
+
+    /* Style the links inside the navigation bar */
+#navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: solid;
+    font-size: 40px;
+}
+
+    /* Change the color of links on hover */
+#navbar a:hover {
+    background-color: darkblue;
+    
+}
+
+    /* Add a color to the active/current link */
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    
+}
+h1{
+    color: aliceblue;
+    font-size: 70px;
+    display: block;
+}
+p{
+    color: aqua;
+    font-size: 40px;
+}
+.project-tile{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
